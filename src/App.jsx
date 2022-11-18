@@ -1,11 +1,15 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
 
   // 출력
   return (
     <>
-      <h2>안녕하세요~</h2>
+      <div className='App'>
+        <Header />
+        <h1>본문</h1>
+      </div>
     </>
   );
 
