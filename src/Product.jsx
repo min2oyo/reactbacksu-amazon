@@ -14,10 +14,13 @@ const Product = ({ id, title, image, price, rating }) => {
             <small>원</small>
           </p>
           <div className="product_rating">
-            <p>★</p>
-            <p>★</p>
-            <p>★</p>
-            <p>★</p>
+            {
+              Array(rating)   // rating 크기만큼 배열[] 생성
+                .fill()       // [undefind, undefind, undefind, undefind, undefind]
+                .map(() => (  // 각 undefind에 채움
+                  <p>★</p>
+                ))
+            }
           </div>
         </div>
         <img src={image} alt="" />
