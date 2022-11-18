@@ -1,5 +1,6 @@
 import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
+import { ShoppingBasket } from '@mui/icons-material';
 
 const Header = () => {
 
@@ -24,6 +25,10 @@ const Header = () => {
           <div className='header_option'>
             <span className='header_optionLineOne'>반가워요</span>
             <span className='header_optionLineTwo'>구독과 좋아요</span>
+          </div>
+          <div className='header_optionBasket'>
+            <ShoppingBasket />
+            <span className='header_optionLineTwoheader_basketCount'>0</span>
           </div>
         </div>
       </div>
