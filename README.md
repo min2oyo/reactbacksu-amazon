@@ -1,3 +1,9 @@
+## Desciption
+- 'amazon' 클린 코딩
+- 유튜브 강의
+  - 유튜버: 리액트 깍는 노인
+  - URL: https://youtu.be/b5BH7kPboMk
+
 ## Installed Package
 - Typescript
   - npx create-react-app --template typescript .
@@ -10,3 +16,6 @@
 - Router
   - https://reactrouter.com/
   - npm install react-router-dom
+- React Currency Format
+  - https://www.npmjs.com/package/react-currency-format
+  - npm i --save-dev @types/react-currency-format --force

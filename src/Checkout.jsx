@@ -1,4 +1,5 @@
 import './Checkout.css';
+import Subtotal from './Subtotal';
 
 const Checkout = () => {
 
@@ -21,7 +22,7 @@ const Checkout = () => {
           </div>
         </div>
         <div className='checkout_right'>
-          <h2>장바구니 총 금액</h2>
+          <Subtotal />
         </div>
       </div>
     </>
