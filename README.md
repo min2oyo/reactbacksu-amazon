@@ -21,3 +21,4 @@
   - npm i --save-dev @types/react-currency-format --force
 
 ## Task
+- CheckoutProduct.css 작업 대기 (3:01:43)
