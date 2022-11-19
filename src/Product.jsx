@@ -1,6 +1,27 @@
 import './Product.css';
+import { useStateValue } from './StateProvider';
 
 const Product = ({ id, title, image, price, rating }) => {
+
+  // 변수
+  const [{ basket }, dispatch] = useStateValue(); // 장바구니 [가져올 것, 쏠 것]
+
+  // 함수
+  const addToBasket = () => { // 장바구니 담기
+    dispatch({
+      type: 'ADD_TO_BASKET',
+      item: {
+        id,
+        title,
+        image,
+        price,
+        rating,
+      }
+    });
+  };
+
+  // 확인
+  console.log(`장바구니: `, basket);
 
   // 출력
   return (
@@ -24,7 +45,7 @@ const Product = ({ id, title, image, price, rating }) => {
           </div>
         </div>
         <img src={image} alt="" />
-        <button>장바구니에 담기</button>
+        <button onClick={addToBasket}>장바구니에 담기</button>
       </div>
     </>
   );
