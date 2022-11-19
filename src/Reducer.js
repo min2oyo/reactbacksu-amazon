@@ -2,9 +2,9 @@ export const initialState = {
   basket: [],
 };
 
-export const getBasketTotal = basket => {
+export const getBasketTotal = basket =>
   basket?.reduce((amount, item) => item.price + amount, 0); // reduce 함수?
-};
+
 
 const reducer = (state, action) => {
   switch (action.type) {

@@ -21,4 +21,3 @@
   - npm i --save-dev @types/react-currency-format --force
 
 ## Task
-- 'Checkout.jsx'에서 총합 표시 안 됨
