@@ -1,4 +1,4 @@
-## Desciption
+## Description
 - 'amazon' 클린 코딩
 - 유튜브 강의
   - 유튜버: 리액트 깍는 노인
