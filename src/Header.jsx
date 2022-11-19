@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       <div className='header'>
-        <Link to="/">
+        <Link to='/'>
           <img className='header_logo' src='https://pngimg.com/uploads/amazon/amazon_PNG11.png' alt='logo' />
         </Link>
         <div className='header_search'>

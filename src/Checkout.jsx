@@ -16,9 +16,7 @@ const Checkout = () => {
             <h2 className='checkout_title'>
               장바구니입니다
             </h2>
-            {/* 장바구니 아이템들 */}
-            {/* 장바구니 아이템들 */}
-            {/* 장바구니 아이템들 */}
+
           </div>
         </div>
         <div className='checkout_right'>

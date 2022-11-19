@@ -7,8 +7,6 @@ const Subtotal = () => {
 
   // 변수
   const [{ basket }, dispatch] = useStateValue();
-  // console.log(`basket`, basket);
-  // console.log(`getBasketTotal`, getBasketTotal(basket));
 
   // 출력
   return (
@@ -17,7 +15,7 @@ const Subtotal = () => {
         <CurrencyFormat
           decimalScale={2}
           value={getBasketTotal(basket)}
-          displayType={"text"}
+          displayType={'text'}
           thousandSeparator={true}
           prefix={'￦'}
           renderText={value => (

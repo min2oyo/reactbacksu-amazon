@@ -12,8 +12,8 @@ function App() {
       <div className='App'>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/checkout" element={<Checkout />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/checkout' element={<Checkout />} />
         </Routes>
       </div>
     </>
